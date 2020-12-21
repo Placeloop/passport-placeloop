@@ -1,0 +1,43 @@
+{
+  "name": "passport-strategy",
+  "version": "1.0.0",
+  "description": "An abstract class implementing Passport's strategy API.",
+  "keywords": [
+    "passport",
+    "strategy"
+  ],
+  "author": {
+    "name": "Jared Hanson",
+    "email": "jaredhanson@gmail.com",
+    "url": "http://www.jaredhanson.net/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jaredhanson/passport-strategy.git"
+  },
+  "bugs": {
+    "url": "http://github.com/jaredhanson/passport-strategy/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "./lib",
+  "dependencies": {
+    "passport-oauth2": "^1.5.0"
+  },
+  "devDependencies": {
+    "chai": "1.x.x",
+    "express": "^4.17.1",
+    "mocha": "1.x.x",
+    "passport": "^0.4.1"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha --reporter spec --require test/bootstrap/node test/*.test.js"
+  }
+}
