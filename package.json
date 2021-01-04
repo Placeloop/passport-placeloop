@@ -1,22 +1,22 @@
 {
-  "name": "passport-strategy",
+  "name": "passport-placeloop",
   "version": "1.0.0",
-  "description": "An abstract class implementing Passport's strategy API.",
+  "description": "Placeloop oAuth2 passport.js strategy",
   "keywords": [
     "passport",
     "strategy"
   ],
   "author": {
-    "name": "Jared Hanson",
-    "email": "jaredhanson@gmail.com",
-    "url": "http://www.jaredhanson.net/"
+    "name": "Hugo Lafitte",
+    "email": "hugo@placeloop.com",
+    "url": "http://www.placeloop.com/"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/jaredhanson/passport-strategy.git"
+    "url": "git://github.com/Placeloop/passport-placeloop.git"
   },
   "bugs": {
-    "url": "http://github.com/jaredhanson/passport-strategy/issues"
+    "url": "https://github.com/Placeloop/passport-placeloop/issues"
   },
   "licenses": [
     {
@@ -29,6 +29,8 @@
     "passport-oauth2": "^1.5.0"
   },
   "devDependencies": {
+    "connect": "^3.7.0",
+    "express-session": "^1.17.1",
     "chai": "1.x.x",
     "express": "^4.17.1",
     "mocha": "1.x.x",
